@@ -1,0 +1,5 @@
+x=input()
+y=list(x)
+y[0]=y[0].upper()
+x=''.join(y)
+print(x)
