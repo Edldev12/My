@@ -1,7 +1,6 @@
-a, b = map(int, input().split())
-years = 0
-while a <= b:
-    a *= 3
-    b *= 2
-    years += 1
-print(years)
+input()
+l=set(user)
+if len(l)%2==0:
+     print("CHAT WITH HER!")
+else:
+     print("IGNORE HIM!")
