@@ -1,0 +1,15 @@
+import sys
+
+def solve():
+    n = int(sys.stdin.read().strip())
+    denominations = [100, 20, 10, 5, 1]
+    bills = 0
+    
+    for d in denominations:
+        bills += n // d
+        n %= d
+        
+    print(bills)
+
+if __name__ == '__main__':
+    solve()
