@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+max_val = max(a)
+total_cost = sum(max_val - x for x in a)
+print(total_cost)
